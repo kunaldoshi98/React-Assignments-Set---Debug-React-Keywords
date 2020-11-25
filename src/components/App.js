@@ -5,7 +5,7 @@ const App = () => {
   let [count, setCount] = useState(0);
 
   return (
-    <div class="counter">
+    <div class="ball">
       <h1
         class="count"
         onDoubleClick={() => {
