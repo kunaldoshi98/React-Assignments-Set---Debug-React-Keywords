@@ -5,7 +5,7 @@ const App = () => {
   let [count, setCount] = useState(0);
 
   return (
-    <div class="ball">
+    <>
       <h1
         class="count"
         onDoubleClick={() => {
@@ -22,7 +22,7 @@ const App = () => {
       >
         Increment
       </button>
-    </div>
+    </>
   );
 };
 
