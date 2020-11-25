@@ -2,17 +2,17 @@ import React, { useEffect, useState } from "react";
 import "../styles/App.css";
 
 const App = () => {
-  const [count, setCount] = useState(0);
+  let [count, setCount] = useState(0);
 
   return (
     <div class="ball">
       <h1 class="count">{count}</h1>
       <button
         class="increment-button"
-        ondoubleclick={() => {
+        onDoubleClick={() => {
           alert("cant edit it");
         }}
-        onclick={() => {
+        onClick={() => {
           setCount(count + 1);
         }}
       >
